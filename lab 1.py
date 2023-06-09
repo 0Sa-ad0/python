@@ -83,12 +83,14 @@ arr=[12,4,3,15]
 ans=sum(arr)
 print('sum of arr', ans)
 
-#12 problem
+#12 
 def findArea(r):
-    PI=3.1
-    return PI*(r*r);
-    
-    print('area is %.2f' % findarea(5));
+    PI = 3.1
+    return PI * (r * r)
+
+radius = float(input("Enter the radius: "))
+
+print('Area is %.2f' % findArea(radius))
     
 #13
 num1 = 1
